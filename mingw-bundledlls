@@ -113,7 +113,7 @@ def gather_deps(path, path_prefixes, seen):
     output = subprocess.check_output(["objdump", "-p", path]).decode(
         "utf-8", "replace").split("\n")
     for line in output:
-        if not line.startswith("\tDLL Name: "):
+        if not (line.startswith("\tDLL Name: ") or line.startswith("    DLL Name: ")):
             continue
 
         dep = line.split("DLL Name: ")[1].strip()
