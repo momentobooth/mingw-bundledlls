@@ -55,7 +55,7 @@ blacklist = [
     "bcrypt.dll", "rpcrt4.dll", "hid.dll", "vulkan-1.dll", "dbghelp.dll",
     "mf.dll", "mfplat.dll", "mfreadwrite.dll", "ncrypt.dll",  "cfgmgr32.dll",
     "powrprof.dll", "wininet.dll", "wtsapi32.dll", "bcryptprimitives.dll",
-    "winusb.dll",
+    "winusb.dll", "combase.dll",
     # directx 3d 11 
     "d3d11.dll", "dxgi.dll", "dwrite.dll",
     # ucrt
