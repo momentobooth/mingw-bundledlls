@@ -79,7 +79,8 @@ blacklist = [
     "api-ms-win-crt-private-l1-1-0.dll", "api-ms-win-crt-process-l1-1-0.dll", 
     "api-ms-win-crt-runtime-l1-1-0.dll", "api-ms-win-crt-stdio-l1-1-0.dll", 
     "api-ms-win-crt-string-l1-1-0.dll", "api-ms-win-crt-time-l1-1-0.dll", 
-    "api-ms-win-crt-utility-l1-1-0.dll", "ucrtbase.dll",
+    "api-ms-win-crt-utility-l1-1-0.dll", "api-ms-win-core-winrt-error-l1-1-0.dll",
+    "ucrtbase.dll",
     # VC++ Redistributable
     "concrt140.dll", "mfc140.dll", "mfc140chs.dll", "mfc140cht.dll",
     "mfc140deu.dll", "mfc140enu.dll", "mfc140esn.dll", "mfc140fra.dll",
